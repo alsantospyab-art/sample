@@ -44,3 +44,15 @@ export const projects = [
   { name: "Payment Processing Platform", tech: "Elixir, Phoenix, Next.js, TypeScript, AWS", text: "Dynamic forms and workflows for government payments, with external payment partners integrated and production issues resolved." },
   { name: "Remittance Platform", tech: "Next.js, TypeScript, Backend APIs, AWS", text: "Responsive customer transaction features, with bug fixes and performance improvements." },
 ];
+
+export const stats = [
+  { value: "5 yrs", label: "Building payment and remittance systems at BC Remit" },
+  { value: "14", label: "AWS services supported in production" },
+  { value: "3", label: "Government payment services integrated: SSS, PhilHealth, Pag-IBIG" },
+];
+
+export const pillars = [
+  { title: "Build", text: "Full-stack features and APIs for payment and remittance workflows.", tags: ["Elixir", "Phoenix", "Next.js", "TypeScript", "React", "REST APIs"] },
+  { title: "Run", text: "AWS infrastructure, DNS, monitoring and production support.", tags: ["EC2", "VPC", "IAM", "RDS/Aurora", "Lambda", "CloudWatch", "Route 53"] },
+  { title: "Test and secure", text: "Regression testing, test automation and OWASP-based security checks.", tags: ["Appium", "Selenium", "Jira", "OWASP", "Snyk", "WAF", "SSL/TLS"] },
+];
